@@ -1,0 +1,69 @@
+/* Soran's part */
+
+#container{
+	z-index: 1;
+	top: 100px;
+	position: relative;
+	width: 800px;
+	min-height: 100%;
+	margin: 0 auto;
+
+}
+#content{
+	position:relative;
+	margin-top:20px;
+	height: 100px;
+}
+
+/* Resets color and text decoration for links */
+a {
+  color:inherit;
+  text-decoration: none;
+}
+
+h2 span {
+	color: white; 
+	font: bold 24px/45px Helvetica, Sans-Serif; 
+	letter-spacing: -1px;  
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px; 
+}
+
+table.category-titles {
+	position: absolute;
+	display:inline;
+	width: 100%;
+	border-collapse:separate;
+}
+
+td.titles {
+	width: 33%;
+	padding: 5px;
+	vertical-align:bottom;
+}
+
+
+table {
+	width: 100%;
+	position: absolute;
+	border-collapse:separate;
+}
+
+td {
+	width: 33%;
+	height: 300px;
+	padding: 5px;
+	vertical-align:top;
+}
+
+th {
+	vertical-align:top;
+	text-align:left;	
+}
+
+.index-images {
+	width: 100%;
+	height: 100%;
+	
+}

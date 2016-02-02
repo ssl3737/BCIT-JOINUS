@@ -1,0 +1,57 @@
+/* contact content */	
+#contact {
+	position: relative;
+	text-align:left;
+	top: 200px;
+	margin: 0 auto;
+	width: 500px;
+	background-color:rgba(0,0,0,0.4);
+	z-index: 999;
+	padding: 25px;
+}
+
+/* text styles */
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+
+p {
+	color:white;
+	font-size: 24px;
+}
+
+/* create a full background image */
+#bg {
+	position: fixed;
+	background-size: cover;
+	background-image: url(images/contact-bg.jpg);
+	top: -30%;
+	left: -50%; 
+	width: 200%; 
+	height: 200%;
+}
+
+#slideshow img {
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	right: 0; 
+	bottom: 0; 
+	margin: auto; 
+	min-width: 50%;
+	min-height: 50%;
+}
+
+#navbar {
+	right:0;
+}
+
+#header {
+	left:0;
+}
+#header-content{
+	width: 800px;
+	left:0;
+}

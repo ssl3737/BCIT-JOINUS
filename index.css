@@ -1,0 +1,56 @@
+/* creates 3 evenly columns */
+#featured-pics {
+	position: relative;
+	margin-top: 550px;
+	height: 50px;
+}
+#featured-pics-content {
+	float: left;
+	width: 100%;
+}
+.featured-column {
+	float: left;
+	text-align: left;
+	width: 33.3%;
+	height: 300px;   
+	padding-bottom: 15px;
+	
+}
+#featured-clubs {
+	position:relative;
+	margin-top:20px;
+	height: 100px;
+}
+#featured-clubs-content{
+	float: left;
+	width: 100%;
+}
+
+
+/*images*/
+
+.index-images {
+	width: 100%;
+	height: 100%;
+	
+}
+
+
+/*table*/
+
+table {
+	width: 100%;
+	border-collapse:separate;
+}
+
+td {
+	width: 33%;
+	height: 300px;
+	padding: 5px;
+	vertical-align:top;
+}
+
+th {
+	vertical-align:top;
+	text-align:left;	
+}

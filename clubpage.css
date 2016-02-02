@@ -1,0 +1,56 @@
+
+/* banner and its contents */
+#banner{
+	width: 100%;
+	margin-top: 130px;
+}
+#banner-content{
+	width: 629px;
+	margin: auto;
+}
+
+/* wrapper class */
+#content{	
+	height: 100%;
+	width: 100%;
+	margin-top: 200px;
+}
+
+/* left column */
+#left {
+	color: #3C88AE;
+	width: 25%;
+	padding-top: 10px;
+	float: left;
+}
+#left-content{
+	z-index: 2;
+	width: 30%;
+}
+
+/* removing color and decoration on links */
+a:link
+{
+	text-decoration: none;
+	color: #3C88AE;
+}
+
+/* right column */
+#right{
+	width: 70%;
+	margin: 0;
+	float: right;
+}
+
+li{
+	list-style-type: none;
+}
+
+h1, h2, h3 {
+	font-weight: bold;
+    color: #061D40;
+}
+
+h2 {
+	font-size: 20px;
+}

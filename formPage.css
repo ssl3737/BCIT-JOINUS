@@ -1,0 +1,88 @@
+/* create a full background image */
+#bg {
+	position: fixed;
+	background-size: cover;
+	background-image: url(images/bg-image.jpg);
+	top: -30%;
+	left: -50%; 
+	width: 200%; 
+	height: 200%;
+}
+
+h1 {
+	color:white;
+}
+
+#slideshow img {
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	right: 0; 
+	bottom: 0; 
+	margin: auto; 
+	min-width: 50%;
+	min-height: 50%;
+}
+
+/* form container and content */
+.form_container.with_bg {
+	padding: 100px 30px 30px 50px;
+	z-index:999;
+}
+
+.form_container.no_heading {
+	z-index:999;
+}
+
+.form_container {
+	position: relative;
+	top: 50%;
+	margin: 0 auto;
+	width: 300px;
+	z-index: 999;
+}
+
+.form-content h1 {
+	padding: 30px 30px 20px 30px;
+}
+
+.form-content fieldset {
+	background-color:rgba(0,0,0,0.6);
+	border:none;
+	height: 250px;
+}
+
+#form-box {
+	z-index:9999;
+	color: white;
+}
+
+/* padding for input boxes */
+input {
+	padding: 5px;
+}
+
+/* sign up button style */
+.sign_up {
+	text-align:center;
+	padding-top: 5px;
+	color: white;
+	width: 170px;
+	font-weight:bold;
+	display:inline-block;
+	padding:0;
+	line-height: 30px;
+	border-color: #529ecc;
+	background: #529ecc;
+}
+#navbar {
+	right:0;
+}
+
+#header {
+	left:0;
+}
+#header-content{
+	width: 800px;
+	left:0;
+}
